@@ -9,11 +9,11 @@ Layers to Search are from a [FacebookResearch repository](https://github.com/fac
 Utils stuff is taken from [DARTS repository](https://github.com/quark0/darts/blob/master/cnn/utils.py)
 
 # Dependencies
-torch==1.0.1
-torchvision==0.2.1
-tensorboardX
-scipy
-numpy
+- torch==1.0.1
+- torchvision==0.2.1
+- tensorboardX
+- scipy
+- numpy
 
 # Advantages
 
