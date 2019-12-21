@@ -8,6 +8,13 @@ Bichen Wu1, Xiaoliang Dai, Peizhao Zhang, Yanghan Wang, Fei Sun, Yiming Wu, Yuan
 Layers to Search are from a [FacebookResearch repository](https://github.com/facebookresearch/maskrcnn-benchmark/tree/master/maskrcnn_benchmark/modeling/backbone)
 Utils stuff is taken from [DARTS repository](https://github.com/quark0/darts/blob/master/cnn/utils.py)
 
+# Dependencies
+torch==1.0.1
+torchvision==0.2.1
+tensorboardX
+scipy
+numpy
+
 # Advantages
 
 * Building blocks (searched layers) was taken from the FacebookResearch repository
@@ -64,11 +71,6 @@ The repository consists of 2 Neural Net Models:
 
 I encourage you to visit **[TRAINIG_DETAILS.md](https://github.com/AnnaAraslanova/FBNet/blob/master/TRAINIG_DETAILS.md) in this folder** for details and instructions.
 
-# Dependencies
-
-I have tested the code with the following dockerfile: [DOCKERFILE](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/docker/Dockerfile) (Pytorch 0.4.1 Nightly)
-
-btw I think it should work well with Pytorch 0.4.0+
 
 # License
 
