@@ -24,7 +24,7 @@ numpy
 * Logging. You can find all my logs and tensorboards into  *SAVED_LOGS/architectures_training* (for architectures training)
 
 # Disadvantages
-* Loss : $CE(a, w_a) · α β log(LAT(a))$  instead of $CE(a, w_a) · α log(LAT(a))^β$ (occasionally)
+* Loss : $$ CE(a, w_a) · α β log(LAT(a)) $$  instead of $CE(a, w_a) · α log(LAT(a))^β$ (occasionally)
 * SAVED_LOGS/supernet_training* (for supernet training) - logs with validation on the training data to thetas optimization (bug, code was fixed) 
 * No MultiGPU Support yet
 * Training only CIFAR10
